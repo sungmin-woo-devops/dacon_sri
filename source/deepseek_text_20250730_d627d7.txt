@@ -1,0 +1,40 @@
+### Variables for Bus vs. Subway Analysis (Python-ready)
+
+#### 1. Mode-Specific Satisfaction
+- Bus:  
+  "Q15a1"  # Satisfaction with buses (city/village buses)  
+- Subway/Train:  
+  "Q15a2"  # Satisfaction with subway/trains  
+
+#### 2. Usage Patterns  
+- Primary Mode:  
+  "Q17_2"   # Commute/school transportation mode  
+- Commute Time:  
+  "Q17_3a1" # Commute time (hours)  
+  "Q17_3a2" # Commute time (minutes)  
+
+#### 3. Pain Points  
+- Complaints:  
+  "Q17_5"   # Commute inconveniences (text)  
+
+#### 4. Infrastructure & Policy  
+- General Transport:  
+  "Q16a1"   # Traffic infrastructure satisfaction  
+  "Q16a4"   # Walkability satisfaction  
+- Policy Priority:  
+  "Q50a2"   # Transportation policy importance  
+
+#### 5. Open-Ended Feedback  
+- Text Responses:  
+  "Q55_2m1" # Urgent improvements (text response 1)  
+  "Q55_2m2" # Urgent improvements (text response 2)  
+  "Q55_2m3" # Urgent improvements (text response 3)  
+  "Q55_2m4" # Urgent improvements (text response 4)  
+
+### Demographics (For Filtering)  
+- District:  
+  "DM3"     # Residential district  
+- Age:  
+  "birth"   # Respondent birth year  
+- Income:  
+  "D8"      # Monthly household income  
